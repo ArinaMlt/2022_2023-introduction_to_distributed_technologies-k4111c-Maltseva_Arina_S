@@ -10,7 +10,7 @@ Group: K4111c
 
 Author: Maltseva Arina Sergeevna
 
-Lab: Lab2
+Lab: Lab4
 
 Date of create: 28.10.2022
 
