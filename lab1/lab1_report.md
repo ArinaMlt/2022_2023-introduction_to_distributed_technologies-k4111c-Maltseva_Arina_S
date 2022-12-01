@@ -25,9 +25,11 @@ Date of finished: 01.12.2022
 minikube start
 ```
  
+ apply управляет приложениями с помощью файлов, которые определяют ресурсы Kubernetes. 
  
 <img width="572" alt="Снимок экрана 2022-12-01 в 14 38 19" src="https://user-images.githubusercontent.com/79594454/205071748-3d753691-4a2b-4b03-8592-da8131a47393.png">
 
+Вывести все поды в пространстве имён
 
 <img width="572" alt="Снимок экрана 2022-12-01 в 14 36 38" src="https://user-images.githubusercontent.com/79594454/205071770-e4a45e90-3981-4a8b-adb7-92e5ff3079d2.png">
 
