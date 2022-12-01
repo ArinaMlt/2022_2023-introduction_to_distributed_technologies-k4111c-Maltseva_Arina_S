@@ -32,7 +32,7 @@ minikube start
 apply управляет приложениями с помощью файлов, которые определяют ресурсы Kubernetes. 
  
  ```
-kubectl apply -ff /Users/arina/Downloads/docker/vault.yarn
+kubectl apply -f /Users/arina/Downloads/docker/vault.yarn
 ``` 
  
 <img width="572" alt="Снимок экрана 2022-12-01 в 14 38 19" src="https://user-images.githubusercontent.com/79594454/205071748-3d753691-4a2b-4b03-8592-da8131a47393.png">
