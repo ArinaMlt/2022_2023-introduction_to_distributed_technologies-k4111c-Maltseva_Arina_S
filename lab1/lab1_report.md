@@ -14,6 +14,6 @@ Lab: Lab1
 
 Date of create: 28.10.2022
 
-Date of finished: is in development
+Date of finished: 01.12.2022
 
 ---
