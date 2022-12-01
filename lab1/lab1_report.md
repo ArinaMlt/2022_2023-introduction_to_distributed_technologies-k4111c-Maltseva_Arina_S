@@ -25,5 +25,5 @@ Date of finished: 01.12.2022
 
 <img width="572" alt="Снимок экрана 2022-12-01 в 14 36 38" src="https://user-images.githubusercontent.com/79594454/205071770-e4a45e90-3981-4a8b-adb7-92e5ff3079d2.png">
 
+<img width="1440" alt="Снимок экрана 2022-12-01 в 14 56 55" src="https://user-images.githubusercontent.com/79594454/205072270-696087f0-52f7-4220-8c4f-0ba1e8329361.png">
 
-<img width="1425" alt="Снимок экрана 2022-08-29 в 23 29 14" src="https://user-images.githubusercontent.com/79594454/205071854-18331110-2ee3-4d27-a010-a17591f8f0bf.png">
