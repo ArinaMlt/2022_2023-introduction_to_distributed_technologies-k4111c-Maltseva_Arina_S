@@ -38,15 +38,17 @@ apply управляет приложениями с помощью файлов
 <img width="572" alt="Снимок экрана 2022-12-01 в 14 36 38" src="https://user-images.githubusercontent.com/79594454/205071770-e4a45e90-3981-4a8b-adb7-92e5ff3079d2.png">
 
 
-Токен можно найти, используя команду
+По логам нужно получить токен для входа на сервис. Токен можно найти, используя команду
 ```
-minikube kubectl -- logs service/vault
-```
-По логам был получен токен для входа на сервис.
+minikube kubectl -- logs service/vault 
+```  
 
+Далее нужно перенаправить локальный порт на порт в поде
 ```
 minikube kubectl -- port-forward service/vault 8200:8200
 ```
+Теперь приложение становится доступным по адресу http://localhost:8200 
+
 #Результат работы
 <img width="1440" alt="Снимок экрана 2022-12-01 в 14 56 55" src="https://user-images.githubusercontent.com/79594454/205072270-696087f0-52f7-4220-8c4f-0ba1e8329361.png">
 
