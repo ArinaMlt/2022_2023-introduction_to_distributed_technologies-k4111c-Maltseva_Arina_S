@@ -63,3 +63,5 @@ minikube kubectl -- apply -f Deployment.yaml
 
 <img width="556" alt="Снимок экрана 2022-12-08 в 17 44 06" src="https://user-images.githubusercontent.com/79594454/206476184-d8819f69-6a55-455c-b7b0-58a47f5c1fc9.png">
 
+![lab2](https://user-images.githubusercontent.com/79594454/206489304-84cf2277-d88e-474b-bc75-ce6fe80bbf22.png)
+
