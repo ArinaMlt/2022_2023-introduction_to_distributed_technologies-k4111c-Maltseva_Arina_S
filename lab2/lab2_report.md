@@ -33,10 +33,13 @@ Date of finished: 08.12.2022
 - Проверьте логи контейнеров, приложите логи в отчёт.
 
 ---
+
+ <img width="568" alt="Снимок экрана 2022-12-08 в 15 38 17" src="https://user-images.githubusercontent.com/79594454/206474395-c23233a5-8eb9-4cdb-a6b8-f503c4a50818.png">
+
 Для развертывания deployment используем следующую команду:
 
  ```
-minikube kubectl -- apply -f deployment.yaml
+minikube kubectl -- apply -f Deployment.yaml
  ```
  
 ### Создание сервиса типа NodePort
@@ -50,13 +53,19 @@ minikube kubectl -- apply -f deployment.yaml
  minikube kubectl -- apply -f service.yaml
   ```
   
+  <img width="478" alt="Снимок экрана 2022-12-08 в 17 24 54" src="https://user-images.githubusercontent.com/79594454/206474641-d3e27caf-e2b7-48cf-9111-be2505c6fe25.png">
+
+<img width="403" alt="Снимок экрана 2022-12-08 в 17 29 49" src="https://user-images.githubusercontent.com/79594454/206474678-3291628a-b3f8-4692-a406-898de2e02aef.png">
+
+  
 ### Проброс портов и результаты работы
 С помощью комманды
  ```
- minikube kubectl -- port-forward service/lab2 8888:8080
+ minikube kubectl -- port-forward service/lab2-service 8888:8080
   ```
-  Открываем порт для доступа к сервису и заходим через браузер в приложение:
+ 
   
-  picture
+  <img width="918" alt="Снимок экрана 2022-12-08 в 17 34 13" src="https://user-images.githubusercontent.com/79594454/206474194-a7effe86-97db-40ce-b5e8-004e4241cff5.png">
+
   
   Имя и IP контейнера не меняются т.к. в качестве сервиса был выбран NodePort.
