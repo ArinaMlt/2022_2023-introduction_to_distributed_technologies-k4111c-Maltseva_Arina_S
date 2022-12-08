@@ -45,6 +45,9 @@ minikube kubectl -- apply -f Deployment.yaml
 
 <img width="403" alt="Снимок экрана 2022-12-08 в 17 29 49" src="https://user-images.githubusercontent.com/79594454/206474678-3291628a-b3f8-4692-a406-898de2e02aef.png">
 
+
+<img width="551" alt="Снимок экрана 2022-12-08 в 17 56 02" src="https://user-images.githubusercontent.com/79594454/206478871-7df4d64f-2d5b-42c0-9b47-f1c15cb50734.png">
+
   
 ### Проброс портов и результаты работы
 С помощью комманды
