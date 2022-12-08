@@ -14,7 +14,7 @@ Lab: Lab2
 
 Date of create: 28.10.2022
 
-Date of finished: is in development
+Date of finished: 08.12.2022
 
 ---
 # Лабораторная работа №2 "Развертывание веб сервиса в Minikube, доступ к веб интерфейсу сервиса. Мониторинг сервиса."
@@ -31,3 +31,8 @@ Date of finished: is in development
 - Проверьте на странице в веб браузере переменные REACT_APP_USERNAME, REACT_APP_COMPANY_NAME и Container name. Изменяются ли они? Если да то почему?
 
 - Проверьте логи контейнеров, приложите логи в отчёт.
+
+---
+Для развертывания deployment используем следующую команду:
+
+minikube kubectl -- apply -f deployment.yaml
