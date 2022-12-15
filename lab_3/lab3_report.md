@@ -28,7 +28,10 @@ configMap
 переменные: 
 - REACT_APP_USERNAME
 - REACT_APP_COMPANY_NAME
-(ConfigMap — это объект API, используемый для хранения неконфиденциальных данных в парах ключ-значение.)
+
+(ConfigMap — это объект API, используемый для хранения неконфиденциальных данных в парах ключ-значение)
+
+<img width="165" alt="Снимок экрана 2022-12-15 в 07 28 18" src="https://user-images.githubusercontent.com/79594454/207772606-4a3d779f-603e-44a3-a1af-8a18f37d5fdf.png">
 
  ```
 minikube kubectl -- apply -f configMap.yaml
@@ -36,7 +39,7 @@ minikube kubectl -- apply -f configMap.yaml
   
   
 replicaSet 
-(Цель ReplicaSet — поддерживать стабильный набор подов реплик, работающих в любой момент времени.)
+(Цель ReplicaSet — поддерживать стабильный набор подов реплик, работающих в любой момент времени)
 использовать:
 - контейнер - ifilyaninitmo/itdt-contained-frontend:master
 - реплики - 2
@@ -44,6 +47,8 @@ replicaSet
 ```
 minikube kubectl -- apply -f replicaSet.yaml
   ```
+<img width="464" alt="Снимок экрана 2022-12-15 в 07 28 43" src="https://user-images.githubusercontent.com/79594454/207772648-8ab006a3-18ae-45cc-9698-b7d913d5d7eb.png">
+
   
 service 
 ```
@@ -67,13 +72,4 @@ minikube addons enable ingress-dns
 
 
 
-### далее настройка minikube
-Из-за использования Docker в качестве драйвера миникуба необходимо было добавить несколько надстроек для миникуба:
 
-Включить minikube addons enable ingress и сгенерировать TLS сертификат, импортировать сертификат в minikube.
-
-Создать ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
-
-В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
-
-Войдите в веб приложение по вашему FQDN используя HTTPS и проверьте наличие сертификата
