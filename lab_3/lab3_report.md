@@ -51,7 +51,9 @@ minikube kubectl -- apply -f replicaSet.yaml
 
   
 service 
-В Kubernetes сервис — это абстракция, определяющая политику доступа к подам
+
+<!-- В Kubernetes сервис — это абстракция, определяющая политику доступа к подам -->
+
 ```
 minikube kubectl -- apply -f service.yaml
   ```
