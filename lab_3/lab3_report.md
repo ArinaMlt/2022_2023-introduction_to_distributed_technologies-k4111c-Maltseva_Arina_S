@@ -64,12 +64,12 @@ ingress
 
 <img width="597" alt="Снимок экрана 2022-12-15 в 06 19 22" src="https://user-images.githubusercontent.com/79594454/207764629-dcc3570b-5055-43a0-8728-abd04e92588a.png">
 
-<img width="781" alt="Снимок экрана 2022-12-15 в 06 24 27" src="https://user-images.githubusercontent.com/79594454/207765200-596d68cb-c815-4f79-9859-8d267298658c.png">
-
+<!-- <img width="781" alt="Снимок экрана 2022-12-15 в 06 24 27" src="https://user-images.githubusercontent.com/79594454/207765200-596d68cb-c815-4f79-9859-8d267298658c.png"> -->
+<!-- 
 <img width="776" alt="Снимок экрана 2022-12-15 в 06 29 45" src="https://user-images.githubusercontent.com/79594454/207765827-10ff0805-f81d-4eb9-b61d-db9c1bc512be.png">
+ -->
 
-
-<img width="688" alt="Снимок экрана 2022-12-15 в 06 31 21" src="https://user-images.githubusercontent.com/79594454/207766047-a70f8015-a4af-42ef-beec-f743fd5a423b.png">
+<!-- <img width="688" alt="Снимок экрана 2022-12-15 в 06 31 21" src="https://user-images.githubusercontent.com/79594454/207766047-a70f8015-a4af-42ef-beec-f743fd5a423b.png"> -->
 
 Создание secret
 ```
