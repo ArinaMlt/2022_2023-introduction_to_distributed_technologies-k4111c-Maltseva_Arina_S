@@ -51,6 +51,7 @@ minikube kubectl -- apply -f replicaSet.yaml
 
   
 service 
+В Kubernetes сервис — это абстракция, определяющая политику доступа к подам
 ```
 minikube kubectl -- apply -f service.yaml
   ```
@@ -63,13 +64,24 @@ minikube kubectl -- apply -f service.yaml
 
 <img width="688" alt="Снимок экрана 2022-12-15 в 06 31 21" src="https://user-images.githubusercontent.com/79594454/207766047-a70f8015-a4af-42ef-beec-f743fd5a423b.png">
 
+Конфигурирем minikube для работы с ingress
 ```
 minikube addons enable ingress
 minikube addons enable ingress-dns
   ```
+для доступа к ingress используем команду  
+  ```
+minikube tunnel
+  ```
   
 <img width="778" alt="Снимок экрана 2022-12-15 в 06 33 43" src="https://user-images.githubusercontent.com/79594454/207766328-bfb1ecc7-1ce8-46c0-ae9b-4fdafda26ad2.png">
 
+Чтобы приложение lab3-app было доступно по FQDN на хосте, необходимо внести изменения в файл hosts, добавив следующую строку:
+```
+27.0.0.1 maltseva.com
+  ```
+После этого приложение может быть открыто в браузере по адресу https://maltseva.com/  
 
+<img width="567" alt="Снимок экрана 2022-12-15 в 08 45 07" src="https://user-images.githubusercontent.com/79594454/207782177-db13e3a6-576b-49fd-894c-9a3bfff696de.png">
 
 
