@@ -17,3 +17,11 @@ Date of create: 28.10.2022
 Date of finished: is in development
 
 ---
+
+
+### Цель работы
+
+Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.
+
+### Ход рааботы
+
