@@ -23,7 +23,7 @@ Date of finished: 15.12.2022
 
 ### Ход работы:
 
-1 Создать манифесты
+Создать манифесты
 configMap 
 переменные: 
 - REACT_APP_USERNAME
@@ -31,12 +31,12 @@ configMap
 
 (ConfigMap — это объект API, используемый для хранения неконфиденциальных данных в парах ключ-значение)
 
-<img width="165" alt="Снимок экрана 2022-12-15 в 07 28 18" src="https://user-images.githubusercontent.com/79594454/207772606-4a3d779f-603e-44a3-a1af-8a18f37d5fdf.png">
 
  ```
 minikube kubectl -- apply -f configMap.yaml
   ```
-  
+  <img width="241" alt="Снимок экрана 2022-12-16 в 10 48 44" src="https://user-images.githubusercontent.com/79594454/208049330-a782a370-4c56-4ead-abe4-d25663aa5af7.png">
+
   
 replicaSet 
 (Цель ReplicaSet — поддерживать стабильный набор подов реплик, работающих в любой момент времени)
@@ -52,7 +52,7 @@ minikube kubectl -- apply -f replicaSet.yaml
   
 service 
 
-<!-- В Kubernetes сервис — это абстракция, определяющая политику доступа к подам -->
+В Kubernetes сервис — это абстракция, определяющая политику доступа к подам
 
 ```
 minikube kubectl -- apply -f service.yaml
@@ -60,6 +60,8 @@ minikube kubectl -- apply -f service.yaml
   <img width="198" alt="Снимок экрана 2022-12-15 в 08 49 41" src="https://user-images.githubusercontent.com/79594454/207782791-77223ff5-6ef9-474d-8cee-2fe8303688c1.png">
 
 ingress
+
+Ingress — это объект Kubernetes, описывающий правила проксирования трафика от внешнего источника до сервисов внутри кластера K8S. Добавление или изменение правил проксирования трафика происходит путем переконфигурирования Ingress — путем правки манифеста и его файла ConfigMap.
 
 <img width="320" alt="Снимок экрана 2022-12-15 в 08 49 57" src="https://user-images.githubusercontent.com/79594454/207782818-4a195097-caf5-49f0-bef9-94a3d6f5e0d8.png">
 
@@ -74,6 +76,9 @@ ingress
 <!-- <img width="688" alt="Снимок экрана 2022-12-15 в 06 31 21" src="https://user-images.githubusercontent.com/79594454/207766047-a70f8015-a4af-42ef-beec-f743fd5a423b.png"> -->
 
 Создание secret
+
+Secret — объект API Kubernetes, который позволяет хранить и управлять конфиденциальной информацией, такой как пароли, токены OAuth и ключи SSH.
+
 ```
 kubectl create secret tls lab3-tls --cert=tls.crt --key=tls.key
   ```
@@ -88,7 +93,7 @@ minikube addons enable ingress-dns
 minikube tunnel
   ```
   
-<img width="778" alt="Снимок экрана 2022-12-15 в 06 33 43" src="https://user-images.githubusercontent.com/79594454/207766328-bfb1ecc7-1ce8-46c0-ae9b-4fdafda26ad2.png">
+<!-- <img width="778" alt="Снимок экрана 2022-12-15 в 06 33 43" src="https://user-images.githubusercontent.com/79594454/207766328-bfb1ecc7-1ce8-46c0-ae9b-4fdafda26ad2.png"> -->
 
 Чтобы приложение lab3-app было доступно по FQDN на хосте, необходимо внести изменения в файл hosts, добавив следующую строку:
 ```
