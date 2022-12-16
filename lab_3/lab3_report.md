@@ -96,6 +96,10 @@ minikube tunnel
   ```
 После этого приложение может быть открыто в браузере по адресу https://maltseva.com/  
 
+![IMAGE 2022-12-16 10:44:40](https://user-images.githubusercontent.com/79594454/208048680-f42f01ea-0029-471d-9ed1-e7830c131dd6.jpg)
+
+
+
 <img width="567" alt="Снимок экрана 2022-12-15 в 08 45 07" src="https://user-images.githubusercontent.com/79594454/207782177-db13e3a6-576b-49fd-894c-9a3bfff696de.png">
 
 
