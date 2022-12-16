@@ -64,7 +64,7 @@ ingress
 <img width="320" alt="Снимок экрана 2022-12-15 в 08 49 57" src="https://user-images.githubusercontent.com/79594454/207782818-4a195097-caf5-49f0-bef9-94a3d6f5e0d8.png">
 
 
-<img width="597" alt="Снимок экрана 2022-12-15 в 06 19 22" src="https://user-images.githubusercontent.com/79594454/207764629-dcc3570b-5055-43a0-8728-abd04e92588a.png">
+<!-- <img width="597" alt="Снимок экрана 2022-12-15 в 06 19 22" src="https://user-images.githubusercontent.com/79594454/207764629-dcc3570b-5055-43a0-8728-abd04e92588a.png"> -->
 
 <!-- <img width="781" alt="Снимок экрана 2022-12-15 в 06 24 27" src="https://user-images.githubusercontent.com/79594454/207765200-596d68cb-c815-4f79-9859-8d267298658c.png"> -->
 <!-- 
