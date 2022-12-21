@@ -111,10 +111,20 @@ kubectl delete ippools default-ipv4-ippool
 
 3. Проверка на странице в веб браузере переменных Container name и Container IP
 
-Обновив страницу произошло изменение полей "Container name" и "Container IP" т.к. сервис распределяет нагрузку межу существующими репликами
+<img width="446" alt="Снимок экрана 2022-12-21 в 21 39 14" src="https://user-images.githubusercontent.com/79594454/208979304-7a16ef73-bc86-4e0a-8c83-d6ba972f47e7.png">
+
+<img width="642" alt="Снимок экрана 2022-12-21 в 21 43 22" src="https://user-images.githubusercontent.com/79594454/208980038-871d65c5-5d7c-490a-b426-a4c0efe13e1c.png">
+
+
+
+Обновив страницу не произошло изменение полей "Container name" и "Container IP".
 
 4. Результаты пингов
 
 ```
 minikube kubectl -- get pods -o wide
 ```
+
+<img width="833" alt="Снимок экрана 2022-12-21 в 22 24 53" src="https://user-images.githubusercontent.com/79594454/208986930-844d923a-11a0-402c-bc38-fe7383ca13bd.png">
+
+
