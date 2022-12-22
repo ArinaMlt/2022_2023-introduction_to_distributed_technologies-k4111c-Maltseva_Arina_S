@@ -108,3 +108,4 @@ minikube tunnel
 <img width="567" alt="Снимок экрана 2022-12-15 в 08 45 07" src="https://user-images.githubusercontent.com/79594454/207782177-db13e3a6-576b-49fd-894c-9a3bfff696de.png">
 
 
+![A4 - 2](https://user-images.githubusercontent.com/79594454/209151383-da786f46-7dcc-4199-821e-d38c226a7ba5.png)
