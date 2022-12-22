@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab4-configmap
+data:
+  username: "Arina"
+  company: "ITMO"
+
+---
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: lab4-replicaset
+  labels:
+    app: lab4
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: lab4
+  template:
+    metadata:
+      labels:
+        app: lab4
+    spec:
+      containers:
+        - name: lab4-pod
+          image: ifilyaninitmo/itdt-contained-frontend:master
+          env:
+            - name: REACT_APP_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: lab4-configmap
+                  key: username
+            - name: REACT_APP_COMPANY_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: lab4-configmap
+                  key: company
+          ports:
+            - containerPort: 3000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: lab4-service
+spec:
+  selector:
+    app: lab4
+  ports:
+    - protocol: TCP
+      port: 9090
+      targetPort: 3000
+  type: LoadBalancer
