@@ -128,3 +128,5 @@ minikube kubectl -- get pods -o wide
 <img width="833" alt="Снимок экрана 2022-12-21 в 22 24 53" src="https://user-images.githubusercontent.com/79594454/208986930-844d923a-11a0-402c-bc38-fe7383ca13bd.png">
 
 
+![A4 - 1](https://user-images.githubusercontent.com/79594454/209165613-bfbd5408-c37b-492f-ab6e-7fb84bce3d4f.png)
+
